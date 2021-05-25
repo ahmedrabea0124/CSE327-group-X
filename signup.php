@@ -48,7 +48,7 @@
 			<div class="pos-relative">
 				<fieldset>
 					<legend>Upload Nid</legend>
-					<input type="file" id='files' name="files" style="margin-bottom: 5px !important">
+					<input type="file" id='files' name="files" required style="margin-bottom: 5px !important">
 					<img class="loader" src="img/loader.gif">
 					
 					<div>
