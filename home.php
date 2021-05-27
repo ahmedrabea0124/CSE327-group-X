@@ -1,6 +1,6 @@
 <?php
 // session_start();
- include 'db.php';
+ include 'dbh.php';
  include 'session.php';
 
 // $username=$_SESSION['username'];
@@ -27,7 +27,7 @@ $lastname=$retrive["lastname"];
 <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
   <div class="container-fluid">
     <h1><a style="color:white;" class="navbar-brand">Knowledge Hub</a></h1>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
